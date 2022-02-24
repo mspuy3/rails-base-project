@@ -1,15 +1,16 @@
 # Hi there 👋
 
-This repo serves as the main repo for our Rails Projects. 
+This repo serves as the main repo for Justin and MU's Rails Project - a Stock Trading App. 
 
 
-#### Version
+#### Versions
 
 ```
-  Ruby 2.7.2
-  Rails 6.0.3.4
-  NodeJS 12.18.3
-  Yarn 1.22.4
+ruby 3.0.2
+rails 6.0.3
+yarn 1.22.4
+nodejs 16.13.0
+
 ```
 
 #### Installation
@@ -25,10 +26,17 @@ Then, clone your forked repo to your machine
 
 #### Setup
 
+1. Upgrade/downgrade nodejs to 16.13.0
+2. Upgrade/downgrade yarn to 1.22.0
+3. Upgrade/downgrade ruby to 3.0.2
+4. Upgrade/downgrade rails to 6.1.4
+
 ```
   $ bundle install
-  $ rake db:setup
+  $ rails db:create
 ```
+NOTE: project development db name should be: 'rails_project_development'
+
 
 #### Starting the application
 
