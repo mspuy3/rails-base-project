@@ -15,7 +15,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'devise'
+# gem 'devise'
+gem 'rodauth-rails', '~> 1.2', '>= 1.2.2'
 gem 'hamlit-rails'
 
 group :development, :test do
